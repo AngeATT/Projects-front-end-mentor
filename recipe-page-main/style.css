@@ -4,6 +4,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 h1{
@@ -20,6 +21,8 @@ h1{
 }
 
 .container {
+    margin-top: 5%;
+    margin-bottom: 5%;
   height: auto;
   width: 600px;
   border-radius: 20px;
