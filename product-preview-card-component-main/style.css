@@ -2,7 +2,7 @@
 
 
 body{
-    padding: 2em;
+    padding: 0.5em;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     background-color: hsl(30, 38%, 92%);
@@ -74,10 +74,17 @@ body{
 
 @media only screen and (min-width: 992px) {
     
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
     #container{
         display: flex;
         width: 40%;
-        margin: 0 auto;
     }
     #picture{
         width: 50%;
