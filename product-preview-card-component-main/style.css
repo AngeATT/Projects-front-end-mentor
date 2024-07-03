@@ -3,7 +3,6 @@
 
 body{
     padding: 2em;
-    height: 100vh;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     background-color: hsl(30, 38%, 92%);
@@ -18,13 +17,12 @@ body{
     line-height: 1.67em;
 }
 
-.picture img{
+#picture img{
     object-fit: cover;
     object-position: center;
     width: 100%;
     border-start-start-radius: 15px;
     border-start-end-radius: 15px;
-    
 }
 
 #container{
@@ -74,9 +72,23 @@ body{
 }
 
 
-
-
-
 @media only screen and (min-width: 992px) {
     
+    #container{
+        display: flex;
+        width: 40%;
+        margin: 0 auto;
+    }
+    #picture{
+        width: 50%;
+    }
+    #details{
+        width: 50%;
+    }
+
+    #picture img{
+        border-start-end-radius: 0;
+        border-end-start-radius: 15px;
+        height: 100%;
+    }
 }

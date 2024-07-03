@@ -27,18 +27,21 @@
   </head>
   <body>
     <div id="container">
-      <picture class="picture">
-        <source
-          media="(min-width: 992px)"
-          srcset="./images/image-product-desktop.jpg"
-        />
-        <source
-          media="max-width: 992px"
-          srcset="./images/image-product-mobile.jpg"
-        />
-        <img src="./images/image-product-mobile.jpg" alt="image cafe" />
-      </picture>
-      <section>
+      <div id="picture">
+        <picture>
+          <source
+            media="(min-width: 992px)"
+            srcset="./images/image-product-desktop.jpg"
+          />
+          <source
+            media="max-width: 992px"
+            srcset="./images/image-product-mobile.jpg"
+          />
+          <img src="./images/image-product-mobile.jpg" alt="image cafe" />
+        </picture>
+      </div>
+      
+      <section id="details">
         <span id="perfume">PERFUME</span>
         <h1>Gabrielle Essence Eau De Parfum</h1>
         <p id="perfume-description">
@@ -58,7 +61,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">ANGEATT</a>.
     </div>
   </body>
 </html>
