@@ -18,9 +18,10 @@ h1 {
 
 .recipe-image {
   object-position: center;
-  height: 200px;
+  
   border-radius: 15px;
   width: 100%;
+  object-fit: cover;
 }
 
 .container {
@@ -48,6 +49,7 @@ h2 {
   padding: 10px;
   background-color: hsl(330, 100%, 98%);
   padding-left: 30px;
+  border-radius: 10px;
 }
 .preparation ul {
   margin-top: 0;
@@ -74,12 +76,16 @@ ul ol {
   line-height: 1.75;
   width: 100%;
 }
-.nutrition-table td {
+.nutrition-table td,
+.nutrition-table th  {
   width: 200px;
   padding-left: 20px;
   border-bottom-style: solid;
   border-bottom-color: hsl(31deg 5.69% 86.64%);
   border-bottom-width: 2px;
+}
+.nutrition-table th {
+  text-align: left;
 }
 .unit-nutrition {
   color: hsl(14, 45%, 36%);
