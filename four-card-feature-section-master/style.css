@@ -11,7 +11,8 @@ main {
 }
 
 main section h1 {
-  font-weight: 200;
+  font-weight: 100;
+  font-size: 2em;
 }
 
 .card {
@@ -27,8 +28,8 @@ main section h1 {
 
 .card h1 {
   margin: 0;
-  font-size: 1.75em;
-  font-weight: 500;
+  font-size: 1.25em;
+  font-weight: 300;
 }
 
 .img-container {
@@ -56,12 +57,11 @@ main section h1 {
     }
   .cards {
     display: flex;
-    gap: 1.25em;
+    gap: 1em;
   }
-  #supervisor-card,
-  #calculator-card,
+  .side-cards,
   .center-cards {
-    align-self: center;
+    margin: auto;
     flex: 1;
   }
   main section {
