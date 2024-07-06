@@ -1,0 +1,66 @@
+*{
+    margin : 0;
+}
+
+body{
+    color: hsl(0, 7%, 71%);
+    padding: 2em;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card{
+    padding: 1.5em;
+    border-radius: .25em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.white-card{
+    box-shadow: 0px 5px 20px hsl(0, 1%, 85%);
+}
+.white-card  .person-name, .white-card .principal-text{
+    color: hsl(0, 1%, 35%);
+    font-weight: bold;
+}
+
+.profil-description{
+    display: flex;
+    align-content: center;
+    gap: 1em;
+}
+
+.profil-description img{
+    border-radius: 50%;
+}
+.person-details{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 0.25em;
+}
+.person-name{
+    color: white;
+    font-weight: 400;
+}
+
+#daniel-card{
+    background-color: hsl(263, 55%, 52%);
+}
+#jonathan-card{
+    background-color: hsl(217, 19%, 35%)
+}
+#patrick-card{
+    background-color: hsl(219, 29%, 14%)
+}
+.principal-text{
+    color: white;
+    font-size: 1.15em;
+    font-weight: 400;
+}
+
